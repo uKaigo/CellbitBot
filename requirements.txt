@@ -1,0 +1,5 @@
+discord.py
+python-dotenv
+jishaku
+python-dotenv
+git+https://github.com/gunthercox/ChatterBot@4ff8af28567ed446ae796d37c246bb6a14032fe7
