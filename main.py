@@ -1,6 +1,7 @@
 import json
 import os
 
+import discord
 from dotenv import load_dotenv
 from discord.ext import commands
 from chatterbot import ChatBot
@@ -41,7 +42,13 @@ class CellBot(commands.Bot):
         print(f'Logado como: {self.user}')
 
 
-bot = CellBot(command_prefix='!')
+bot = CellBot(
+    command_prefix='!',
+    status=discord.Status.dnd
+    #    activity=discord.Streaming(
+    #        name='UM DETETIVE', url='https://twitch.tv/cellbit'
+    #    ),
+)
 bot.load_extensions()
 
 bot.run(os.environ['TOKEN'])
