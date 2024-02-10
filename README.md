@@ -1,7 +1,7 @@
 CellbitBot
 ==========
 
-This is an economy discord bot I was hired to create.
+This is a chatter discord bot I was hired to create.
 
 License
 -------
